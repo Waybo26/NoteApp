@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> 
+    <title>Notes App</title>
+</head>
+<body>
+
+    <div id = "Notes">
+        <h2> Notes Application</h2>
+        <div class = "inputs"> 
+            <input type="text" id="title" placeholder="Enter Note Title">
+            <input type="text" name='' id="body" placeholder="Enter Note Body">
+            <select id = "colors"> 
+                <option>Select Color </option>
+                <option value="9F1E55"> Lavender </option>
+                <option value="F6F732"> Yellow </option>
+                <option value="E91414"> Red </option>
+                <option value="5DF00F"> Green </option>
+            </select>
+            <button type="button" class="add">Add Notes </button>
+        </div> 
+
+        <div class = "notesDiv">
+            <div class="note">
+                <div class="text">
+                    <b>Learn React</b>
+                    <p>Take LinkedinLearning Course for Web Dev </p>
+                </div>
+                <button class="add">Edit Note </button>
+                <button class="delete">Delete Note </button>
+            </div>
+        </div>
+        
+    </div> 
+    <script src="index.js"> </script> <!-- remember to put in lower section of the body -->
+</body>
+</html>
